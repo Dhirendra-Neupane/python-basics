@@ -1,0 +1,1 @@
+print("Everythins starts from 0")
