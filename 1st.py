@@ -7,9 +7,7 @@ print()
 
 print("Choose one of the follwing operations(1-4): ")
 print("1. Addition")
-user_choice = input()
-
-
+user_choice = int(input())
 if user_choice == 1:
     z = x + y
     print(f"The sum of the numbers is: {z}")
