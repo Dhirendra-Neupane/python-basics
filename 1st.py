@@ -25,8 +25,11 @@ while True:
         z = x * y
         print(f"The product of {x} and {y} is {z}")
     elif user_choice1 == 4:
-        z = x / y
-        print(f"{x} divided by {y} results in {z}")
+        if y == 0:
+            print("Can't divide by zero")
+        else:
+            z = x / y
+            print(f"{x} divided by {y} results in {z}")
     elif user_choice1 == -1:
         print("Exitting calculator")
         break
